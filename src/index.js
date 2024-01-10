@@ -1,15 +1,17 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
+// 1) Import the React and ReactDOM libraries
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
-import App from "./App";
+// 2) Get a reference to the div with ID root
+const el = document.getElementById('root');
 
-const rootElement = document.getElementById("root");
-const root = createRoot(rootElement);
+// 3) Tell React to take control of that element
+const root = ReactDOM.createRoot(el);
 
-root.render(
-  <StrictMode>
-    <div className="wrapper">
-      <App />
-    </div>
-  </StrictMode>
-);
+// 4) Create a component
+function App() {
+  return <h1>Hi there!</h1>;
+}
+
+// 5) Show the component on the screen
+root.render(<App />);
