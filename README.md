@@ -68,12 +68,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-### `npm install bulma`
-
-### Adding CSS Libraries with NPM 장에서 npm start 시 warnning 발생시 package.json에 추가
-```json
-  "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.x.x"
-  },
-```
