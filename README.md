@@ -1,26 +1,3 @@
-# json-server install
-```bash
-$ npm install json-server --save-dev
-```
-
-# package.json 수정
-아래에 추가
-"server": "json-server -p 3001 --watch db.json", 
-
-```json
-  "scripts": {
-    "start": "react-scripts start",
-    "server": "json-server -p 3001 --watch db.json",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  }, 
-```
-# json-server 시작
-```bash
-$ npm run server
-```
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
